@@ -283,6 +283,7 @@ class WebDAVAdapter extends AbstractAdapter
                 $result = array_merge($result, $this->listContents($object['path'], true));
             }
         }
+
         return $result;
     }
 
